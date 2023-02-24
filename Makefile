@@ -16,3 +16,6 @@ initsqlc:
 	sqlc init
 generate:
 	sqlc generate
+
+test:
+	go test -v -cover ./...
